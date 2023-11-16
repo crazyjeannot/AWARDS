@@ -54,6 +54,24 @@ def post_process(df, len_max):
 
     return pd.DataFrame(df, columns=good_cols)
 
+def post_process_trigram(df, len_max):
+    len_ngrams = 1
+    conteur_temp = 0
+    good_cols = []
+    for col in list(df.columns):
+        if len(col.split('_')) == len_ngrams and conteur_temp < len_max:
+            conteur_temp+=1
+            good_cols.append(col)
+        elif conteur_temp >= len_max:
+            len_ngrams+=1
+            conteur_temp=0
+        elif len(col.split('_')) == 3 and conteur_temp < len_max:
+            good_cols.append(col)
+            conteur_temp+=1
+            
+    return pd.DataFrame(df, columns=good_cols)
+
+
 if __name__ == '__main__':
 
     #prendre les arguments
