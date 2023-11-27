@@ -1,0 +1,6 @@
+,0,1,2,3,4,5,6,7,8,9
+list_1_gram,NOUN,VERB,le,de,il,ADJ,un,son,être,et
+list_2_gram,le_NOUN,NOUN_de,un_NOUN,son_NOUN,de_NOUN,NOUN_VERB,NOUN_ADJ,à_le,il_VERB,ADJ_NOUN
+list_3_gram,le_NOUN_de,NOUN_de_NOUN,de_le_NOUN,VERB_le_NOUN,à_le_NOUN,NOUN_de_le,NOUN_le_NOUN,VERB_à_le,le_NOUN_VERB,VERB_un_NOUN
+list_4_gram,NOUN_de_le_NOUN,le_NOUN_de_le,le_NOUN_de_NOUN,NOUN_à_le_NOUN,VERB_à_le_NOUN,un_NOUN_de_NOUN,VERB_le_NOUN_de,à_le_NOUN_de,le_NOUN_le_NOUN,NOUN_de_son_NOUN
+list_5_gram,le_NOUN_de_le_NOUN,le_NOUN_de_son_NOUN,VERB_le_NOUN_de_le,à_le_NOUN_de_le,NOUN_de_le_NOUN_de,le_NOUN_à_le_NOUN,NOUN_à_le_NOUN_de,VERB_à_le_NOUN_de,VERB_un_NOUN_de_NOUN,le_NOUN_et_le_NOUN
